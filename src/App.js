@@ -1,11 +1,11 @@
 import React from 'react';
-import LoginGreeting from './LoginGreeting'
+import LoginControl from './LoginControl'
 
 
 function App() {
   return (
     <div className="App">
-        <LoginGreeting isLoggedIn={ true } />
+        <LoginControl></LoginControl>
     </div>
   );
 }
