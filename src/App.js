@@ -1,11 +1,11 @@
 import React from 'react';
-import Clock from './Clock'
+import LoginGreeting from './LoginGreeting'
 
 
 function App() {
   return (
     <div className="App">
-        <Clock></Clock>
+        <LoginGreeting isLoggedIn={ true } />
     </div>
   );
 }
