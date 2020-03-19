@@ -1,10 +1,10 @@
 import React from 'react';
-import SignUpDialog from './SignUpDialog'
+import InputRefCom from './InputRefCom'
 
 function App() {
   return (
     <div className="App">
-        <SignUpDialog></SignUpDialog>
+      <InputRefCom></InputRefCom>
     </div>
   );
 }
