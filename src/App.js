@@ -1,11 +1,10 @@
 import React from 'react';
-import Mailbox from './Mailbox'
-const messages = ['React', 'Re: React', 'Re:Re: React']
+import Page from './Page'
 
 function App() {
   return (
     <div className="App">
-        <Mailbox unreadMessage={messages}></Mailbox>
+        <Page></Page>
     </div>
   );
 }
