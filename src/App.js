@@ -1,11 +1,11 @@
 import React from 'react';
-import LoginControl from './LoginControl'
-
+import Mailbox from './Mailbox'
+const messages = ['React', 'Re: React', 'Re:Re: React']
 
 function App() {
   return (
     <div className="App">
-        <LoginControl></LoginControl>
+        <Mailbox unreadMessage={messages}></Mailbox>
     </div>
   );
 }
