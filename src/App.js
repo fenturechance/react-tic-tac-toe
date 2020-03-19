@@ -1,11 +1,10 @@
 import React from 'react';
-import NameForm from './NameForm'
+import Reservation from './Reservation'
 
 function App() {
-  let numbers = [1, 2, 3, 4, 5]
   return (
     <div className="App">
-        <NameForm></NameForm>
+        <Reservation></Reservation>
     </div>
   );
 }
