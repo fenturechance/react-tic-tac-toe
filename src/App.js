@@ -1,10 +1,10 @@
 import React from 'react';
-import Calculator from './Calculator'
+import SignUpDialog from './SignUpDialog'
 
 function App() {
   return (
     <div className="App">
-        <Calculator></Calculator>
+        <SignUpDialog></SignUpDialog>
     </div>
   );
 }
